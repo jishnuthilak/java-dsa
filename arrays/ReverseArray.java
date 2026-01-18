@@ -3,14 +3,15 @@ package arrays;
 public class ReverseArray {
 
     static void reverse(int[] arr) {
-        int l = 0, r = arr.length - 1;
-
-        while (l < r) {
-            int temp = arr[l];
-            arr[l] = arr[r];
-            arr[r] = temp;
-            l++;
-            r--;
+        int left=0;
+        int right=arr.length-1;
+        while (left<right){
+            int t=arr[left];
+            arr[left]=arr[right];
+            arr[right]=t;
+            left++;
+            right--;
+            
         }
     }
 
