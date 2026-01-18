@@ -4,7 +4,7 @@ public class MinAndMax {
     static void MinMax(int[] arr){
         int min=0;
         int max=0;
-        for(int i=0;i<=arr.length-1;i++){
+        for(int i=0;i<arr.length;i++){
             if(arr[min]>arr[i]){
                 min=i;
             }
@@ -12,8 +12,7 @@ public class MinAndMax {
                 max=i;
             }
         }
-        System.out.println(arr[max]);
-        System.out.println(arr[min]);
+        System.out.println(arr[max]+" "+arr[min]);
     }
     public static void main(String[] args) {
         int[] arr1={7,1,6,2,5,3,4};
