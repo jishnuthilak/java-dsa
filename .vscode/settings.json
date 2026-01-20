@@ -1,0 +1,8 @@
+{
+  "java.project.importOnFirstTimeStartup": "disabled",
+  "java.autobuild.enabled": false,
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "java.project.sourcePaths": ["."],
+  "java.project.outputPath": "out",
+  "java.errors.incompleteClasspath.severity": "ignore"
+}
